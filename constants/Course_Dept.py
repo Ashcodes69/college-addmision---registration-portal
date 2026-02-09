@@ -7,7 +7,7 @@ COURSE_DEPARTMENTS = {
     ],
     "VOCATIONAL":[
         "BSC.Ca",
-        "BSC,It",
+        "BSC.It",
         "BSC.Electronic",
     ]
 }
