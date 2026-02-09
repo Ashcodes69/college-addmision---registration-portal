@@ -14,13 +14,9 @@ class MainApp:
 
         ttk.Label(root, text="College Portal", font=("Arial", 18)).pack(pady=20)
 
-        ttk.Button(root, text="Admission Panel", command=self.open_admission).pack(
-            pady=10
-        )
+        ttk.Button(root, text="Admission Panel", command=self.open_admission).pack(pady=10)
         ttk.Button(root, text="Student Login", command=self.open_login).pack(pady=10)
-        ttk.Button(
-            root, text="Semester Registration", command=self.open_registration
-        ).pack(pady=10)
+        ttk.Button(root, text="Semester Registration", command=self.open_registration).pack(pady=10)
 
     def open_admission(self):
         win = tk.Toplevel(self.root)

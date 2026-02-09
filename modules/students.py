@@ -1,6 +1,7 @@
 from pydantic import BaseModel, EmailStr
 from datetime import datetime
 
+
 class Student(BaseModel):
     # students personal details
     name: str
@@ -29,10 +30,11 @@ class Student(BaseModel):
     prev_marks_per: str
 
     # Department to take admission & time of admission
+    course_type: str
     department: str
 
     # info we provide
-    admission_time :datetime
+    admission_time: datetime
     current_semester: str
     registration_number: str
     roll_no: str
